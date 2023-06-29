@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+.app-container {
+  background-color: #1e1e2f;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-secondary {
+  background-color: #24243e !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-primary {
+  background-color: #48485e !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-light {
+  color: #fff !important;
 }
 
-.App-link {
-  color: #61dafb;
+.text-dark {
+  color: #1e1e2f !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list-group-item {
+  transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+  background-color: #555570 !important;
+}
+
+.btn-primary {
+  background-color: #ff6b6b !important;
+  border-color: #ff6b6b !important;
+}
+
+.btn-secondary {
+  background-color: #4ecdc4 !important;
+  border-color: #4ecdc4 !important;
+}
+
+.card {
+  border-color: #4ecdc4;
+}
+
+.card-img-top {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.fa-angle-right {
+  float: right;
+}
+
+.my-custom-button {
+  margin: 10px 0;
+  padding: 5px 20px; 
 }
